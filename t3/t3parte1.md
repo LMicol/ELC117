@@ -2,7 +2,6 @@
    <h2>?- avo(joao,Y).</h2>
 
 <p>[trace]  ?- avo(joao,Y).</p>
-<hr />
    <li>Call: (8) avo(joao, _2328) ? creep   // Chama avo para joao que ira chamar a função pai</li>
    <li>Call: (9) pai(joao, _2560) ? creep   // Chama pai para joao e procura resposta</li>
    <li>Exit: (9) pai(joao, jose) ? creep    // Encontrou a resposta jose e retorna</li>
@@ -14,24 +13,24 @@
 
    <h2>?- avo(roberto,Y).</h2>
 
-[trace]  ?- avo(roberto,Y).                 // Chama avo</p>
-   Call: (8) avo(roberto, _2328) ? creep    // Chama avo com argumento roberto</p>
-   Call: (9) pai(roberto, _2542) ? creep    // Chama pai passando roberto</p>
-   Exit: (9) pai(roberto, joao) ? creep     // Encontra uma resposta pra pai roberto = joao, e retorna</p>
-   Call: (9) pai(joao, _2328) ? creep       // Chama novamente pai passando a resposta encontrada anteriormente</p>
-   Exit: (9) pai(joao, jose) ? creep        // Encontra uma resposta para pai(joão) = jose</p>
-   Exit: (8) avo(roberto, jose) ? creep     // Econtra uma resposta para avo(roberto) = jose</p>
+<p>[trace]  ?- avo(roberto,Y).</p>
+   <li>Call: (8) avo(roberto, _2328) ? creep    // Chama avo com argumento roberto</li>
+   <li>Call: (9) pai(roberto, _2542) ? creep    // Chama pai passando roberto</li>
+   <li>Exit: (9) pai(roberto, joao) ? creep     // Encontra uma resposta pra pai roberto = joao, e retorna</li>
+   <li>Call: (9) pai(joao, _2328) ? creep       // Chama novamente pai passando a resposta encontrada anteriormente</li>
+   <li>Exit: (9) pai(joao, jose) ? creep        // Encontra uma resposta para pai(joão) = jose</li>
+   <li>Exit: (8) avo(roberto, jose) ? creep     // Econtra uma resposta para avo(roberto) = jose</li>
 Y = jose ;                                  // Resposta printada</p>
-   Redo: (9) pai(roberto, _2542) ? creep    // Verifica outra possibilidade de respostapara pai(roberto)</p>
-   Exit: (9) pai(roberto, julio) ? creep    // Acha julio como resposta para pai(roberto)</p>
-   Call: (9) pai(julio, _2328) ? creep      // Chama pai(julho)</p>
-   Exit: (9) pai(julio, marcos) ? creep     // Encontra marcos de resposta para pai(julio)</p>
-   Exit: (8) avo(roberto, marcos) ? creep   // Retorna a resposta para avo(roberto) = marcos</p>
+   <li>Redo: (9) pai(roberto, _2542) ? creep    // Verifica outra possibilidade de respostapara pai(roberto)</li>
+   <li>Exit: (9) pai(roberto, julio) ? creep    // Acha julio como resposta para pai(roberto)</li>
+   <li>Call: (9) pai(julio, _2328) ? creep      // Chama pai(julho)</li>
+   <li>Exit: (9) pai(julio, marcos) ? creep     // Encontra marcos de resposta para pai(julio)</li>
+   <li>Exit: (8) avo(roberto, marcos) ? creep   // Retorna a resposta para avo(roberto) = marcos</li>
 Y = marcos ;                                // Printa Outra possibilidade de Resposta</p>
-   Redo: (9) pai(julio, _2328) ? creep      // Retorna para a chamada de pai(julio)</p>
-   Exit: (9) pai(julio, mario) ? creep      // encontra mais uma resposta = mario</p>
-   Exit: (8) avo(roberto, mario) ? creep    // Retorna para avo(roberto) mais uma resposta = mario</p>
-Y = mario.                                  // Printa a última possibilidade</p></p>
+   <li>Redo: (9) pai(julio, _2328) ? creep      // Retorna para a chamada de pai(julio)</li>
+   <li>Exit: (9) pai(julio, mario) ? creep      // encontra mais uma resposta = mario</li>
+   <li>Exit: (8) avo(roberto, mario) ? creep    // Retorna para avo(roberto) mais uma resposta = mario</li>
+<p><p>Y = mario.                                  // Printa a última possibilidade</p></p>
 
 
 <h1> 2. Mostre o trace comentado das consultas: </h1>

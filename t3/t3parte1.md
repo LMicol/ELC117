@@ -2,6 +2,7 @@
    <h2>?- avo(joao,Y).</h2>
 
 <p>[trace]  ?- avo(joao,Y).</p>
+<hr />
    <li>Call: (8) avo(joao, _2328) ? creep   // Chama avo para joao que ira chamar a função pai</li>
    <li>Call: (9) pai(joao, _2560) ? creep   // Chama pai para joao e procura resposta</li>
    <li>Exit: (9) pai(joao, jose) ? creep    // Encontrou a resposta jose e retorna</li>

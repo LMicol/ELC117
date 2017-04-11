@@ -1,7 +1,7 @@
 1.Mostre o trace comentado das consultas:</p>
   ?- avo(joao,Y).</p>
 
-[trace]  ?- avo(joao,Y).                // Chama avo</p>
+[trace]  ?- avo(joao,Y).                '// Chama avo</p>
    Call: (8) avo(joao, _2328) ? creep   // Chama avo para joao que ira chamar a função pai</p>
    Call: (9) pai(joao, _2560) ? creep   // Chama pai para joao e procura resposta</p>
    Exit: (9) pai(joao, jose) ? creep    // Encontrou a resposta jose e retorna</p>

@@ -1,5 +1,5 @@
-<h1>Mostre o trace comentado das consultas:</h1>
-   ?- avo(joao,Y).</p>
+<h1>1. Mostre o trace comentado das consultas:</h1>
+   <h2>?- avo(joao,Y).</h2>
 
 [trace]  ?- avo(joao,Y).                '// Chama avo</p>
    Call: (8) avo(joao, _2328) ? creep   // Chama avo para joao que ira chamar a função pai</p>
@@ -11,7 +11,7 @@
 false.</p></p>
 
 
-   ?- avo(roberto,Y).</p>
+   <h2>?- avo(roberto,Y).</h2>
 
 [trace]  ?- avo(roberto,Y).                 // Chama avo</p>
    Call: (8) avo(roberto, _2328) ? creep    // Chama avo com argumento roberto</p>
@@ -33,8 +33,8 @@ Y = marcos ;                                // Printa Outra possibilidade de Res
 Y = mario.                                  // Printa a última possibilidade</p></p>
 
 
-<h1> Mostre o trace comentado das consultas: </h1>
-   ?- azulejos(120,A).</p>
+<h1> 2. Mostre o trace comentado das consultas: </h1>
+   <h2>?- azulejos(120,A).</h2>
 
 [trace]  ?- |    azulejos(120,A).              // Chama a função azulejos passando o valor 120</p>
    Call: (8) azulejos(120, _2328) ? creep      // Inicia a função azulejos com o valor 120 e o endereço de A</p>
@@ -72,10 +72,10 @@ Y = mario.                                  // Printa a última possibilidade</p
 A = 3 ;                                        // Printa a resposta</p>
 
 
-<h1> Mostre o trace comentado das consultas: </h1>
+<h1> 3. Mostre o trace comentado das consultas: </h1>
 
-   A declaração função sumQuads está no t3parte2.pl</p>
-   ?- sumQuads([1,2,3],Q).</p>
+   <h2>?- sumQuads([1,2,3],Q).</h2>
+   <h3>A declaração função sumQuads está no t3parte2.pl</h3>
    
 [trace]  ?- sumQuads([1,2,3],Q).                 // Chama a sumQuads</p>
    Call: (8) sumQuads([1, 2, 3], _2346) ? creep  // Chama a sumQuads passando a lista e uma posição de memória</p>

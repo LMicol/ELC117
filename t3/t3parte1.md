@@ -1,4 +1,4 @@
-1.Mostre o trace comentado das consultas:</p><p>
+1.Mostre o trace comentado das consultas:</p></p>
   ?- avo(joao,Y).</p>
 
 [trace]  ?- avo(joao,Y).                '// Chama avo</p>
@@ -8,7 +8,7 @@
    Call: (9) pai(jose, _2328) ? creep   // Chama pela segunda vez pai passando a resposta achada anteriormente</p>
    Fail: (9) pai(jose, _2328) ? creep   // Não acha respostas</p>
    Fail: (8) avo(joao, _2328) ? creep   // Retorna o erro</p>
-false.</p><p>
+false.</p></p>
 
 
    ?- avo(roberto,Y).</p>
@@ -30,10 +30,10 @@ Y = marcos ;                                // Printa Outra possibilidade de Res
    Redo: (9) pai(julio, _2328) ? creep      // Retorna para a chamada de pai(julio)</p>
    Exit: (9) pai(julio, mario) ? creep      // encontra mais uma resposta = mario</p>
    Exit: (8) avo(roberto, mario) ? creep    // Retorna para avo(roberto) mais uma resposta = mario</p>
-Y = mario.                                  // Printa a última possibilidade</p><p>
+Y = mario.                                  // Printa a última possibilidade</p></p>
 
 
-2. Mostre o trace comentado das consultas:</p><p>
+2. Mostre o trace comentado das consultas:</p></p>
    ?- azulejos(120,A).</p>
 
 [trace]  ?- |    azulejos(120,A).              // Chama a função azulejos passando o valor 120</p>
@@ -72,7 +72,7 @@ Y = mario.                                  // Printa a última possibilidade</p
 A = 3 ;                                        // Printa a resposta</p>
 
 
-3. Mostre o trace comentado das consultas:</p><p>
+3. Mostre o trace comentado das consultas:</p></p>
 
    A declaração função sumQuads está no t3parte2.pl</p>
    ?- sumQuads([1,2,3],Q).</p>

@@ -1,4 +1,4 @@
-1. Mostre o trace comentado das consultas:</p></p>
+<h1>Mostre o trace comentado das consultas:</h1>
    ?- avo(joao,Y).</p>
 
 [trace]  ?- avo(joao,Y).                '// Chama avo</p>
@@ -33,7 +33,7 @@ Y = marcos ;                                // Printa Outra possibilidade de Res
 Y = mario.                                  // Printa a última possibilidade</p></p>
 
 
-2. Mostre o trace comentado das consultas:</p></p>
+<h1> Mostre o trace comentado das consultas: </h1>
    ?- azulejos(120,A).</p>
 
 [trace]  ?- |    azulejos(120,A).              // Chama a função azulejos passando o valor 120</p>
@@ -72,7 +72,7 @@ Y = mario.                                  // Printa a última possibilidade</p
 A = 3 ;                                        // Printa a resposta</p>
 
 
-3. Mostre o trace comentado das consultas:</p></p>
+<h1> Mostre o trace comentado das consultas: </h1>
 
    A declaração função sumQuads está no t3parte2.pl</p>
    ?- sumQuads([1,2,3],Q).</p>

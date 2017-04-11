@@ -1,5 +1,5 @@
-1.Mostre o trace comentado das consultas:</p></p>
-  ?- avo(joao,Y).</p>
+1. Mostre o trace comentado das consultas:</p></p>
+   ?- avo(joao,Y).</p>
 
 [trace]  ?- avo(joao,Y).                '// Chama avo</p>
    Call: (8) avo(joao, _2328) ? creep   // Chama avo para joao que ira chamar a função pai</p>

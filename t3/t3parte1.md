@@ -1,14 +1,14 @@
 <h1>1. Mostre o trace comentado das consultas:</h1>
    <h2>?- avo(joao,Y).</h2>
 
-[trace]  ?- avo(joao,Y).                '// Chama avo</p>
-   Call: (8) avo(joao, _2328) ? creep   // Chama avo para joao que ira chamar a função pai</p>
-   Call: (9) pai(joao, _2560) ? creep   // Chama pai para joao e procura resposta</p>
-   Exit: (9) pai(joao, jose) ? creep    // Encontrou a resposta jose e retorna</p>
-   Call: (9) pai(jose, _2328) ? creep   // Chama pela segunda vez pai passando a resposta achada anteriormente</p>
-   Fail: (9) pai(jose, _2328) ? creep   // Não acha respostas</p>
-   Fail: (8) avo(joao, _2328) ? creep   // Retorna o erro</p>
-false.</p></p>
+<p>[trace]  ?- avo(joao,Y).</p>
+   <li>Call: (8) avo(joao, _2328) ? creep   // Chama avo para joao que ira chamar a função pai</li>
+   <li>Call: (9) pai(joao, _2560) ? creep   // Chama pai para joao e procura resposta</li>
+   <li>Exit: (9) pai(joao, jose) ? creep    // Encontrou a resposta jose e retorna</li>
+   <li>Call: (9) pai(jose, _2328) ? creep   // Chama pela segunda vez pai passando a resposta achada anteriormente</li>
+   <li>Fail: (9) pai(jose, _2328) ? creep   // Não acha respostas</li>
+   <li>Fail: (8) avo(joao, _2328) ? creep   // Retorna o erro</li>
+<p>false.</p>
 
 
    <h2>?- avo(roberto,Y).</h2>

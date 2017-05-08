@@ -54,7 +54,7 @@ bool cmpPoints(Point_per_A& p1, Point_per_A& p2) {
 }
 
 bool cmpPointsPlayer(Player& p1, Player& p2) {
-   return p1.getPoints() > p2.getPoints();
+   return p1.getPoints() < p2.getPoints();
 }
 
 bool cmpNamePlayer(Player& p1, Player& p2) {
@@ -70,20 +70,20 @@ int main() {
   std::string cell[3];
 
   std::vector<Point_per_A> v;   // Duas classes uma salva as atividades, pontos e jogador
-  std::vector<Player> Players;  // A outra só os pontos e o jogador
+  std::vector<Player> Players;  // A outra sÃ³ os pontos e o jogador
 
   while (std::getline(data, line)) {
-    // Lê linha a linha e salva no vetor cell
+    // LÃª linha a linha e salva no vetor cell
     std::stringstream linestream(line);
     std::getline(linestream, cell[0], ',');
     std::getline(linestream, cell[1], ',');
     std::getline(linestream, cell[2], ',');
 
-    // Salva cada linha lida na primeira struct onde é apresentado pontos por atividades
+    // Salva cada linha lida na primeira struct onde Ã© apresentado pontos por atividades
     Point_per_A p1 = Point_per_A(cell[0], cell[1], strtol(cell[2].c_str(),0,10));
     v.push_back(p1);
 
-    // Salva no segundo vetor onde temos que salvar cada pontuação e não pode haver jogadores repetidos
+    // Salva no segundo vetor onde temos que salvar cada pontuaÃ§Ã£o e nÃ£o pode haver jogadores repetidos
     bool temNoVetor = false;
     std::vector<Player>::iterator it;
     // Verifica se o jogador existe no vetor
@@ -95,7 +95,7 @@ int main() {
         temNoVetor = true;
       }
     }
-    // Se não, cria um novo jogador e entrega a ele seus pontos
+    // Se nÃ£o, cria um novo jogador e entrega a ele seus pontos
     if(temNoVetor == false) {
       Player p2 = Player(cell[0], strtol(cell[2].c_str(),0,10));
       Players.push_back(p2);

@@ -3,8 +3,8 @@ Nomes: Rodrigo Amaral, Lucas Micol.
 Para usar basta extrair os arquivos e apos gerar o "index.html", coloque o na basta HTML5-CRUD ... e abra em seu browser.
 
 Para compilar - cd t8/
-	            - sh compile.sh
-	            - ./a.out
+	      - sh compile.sh
+	      - ./a.out
 
 Existem botoes para inserir, deleter, alterar ...;
 

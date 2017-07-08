@@ -38,7 +38,7 @@ Para esse caso também possuímos apenas uma classe:
 <h3>Arquivo exemplo</h3>
 
 <p>
-Neste arquivo [Chrono1.c](https://github.com/LMicol/ELC117/blob/master/extras/std-chrono/chrono1.cpp)
+Neste arquivo ([Chrono1.c](https://github.com/LMicol/ELC117/blob/master/extras/std-chrono/chrono1.cpp))
 temos uma demonstração de uso da biblioteca. Esse exemplo mostra como pegar a hora atual do sistema e como
 contar o tempo de execução de um programa.
 </p>

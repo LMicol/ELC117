@@ -6,5 +6,5 @@ Para executar o programa deve ser colocado na pasta de exemplos da oxygine-frame
 e compilar com o arquivo run.sh </p>
 # ~$ sh run.sh
 
-<h2>Sujeito a atualizações</h2>
+<h2>Sujeito a atualizações como um placar</h2>
 Foi o que fizemos até o momento

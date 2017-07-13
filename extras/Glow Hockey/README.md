@@ -1,8 +1,9 @@
 <h1>Glow Hockey</h1>
-Jogo desenvolvido na engine Oxygine-2D</p>
-Por : Lucas Micol e [Rodrigo Amaral](https://github.com/rodrigopamaral1) </p>
+<p>Jogo desenvolvido na engine Oxygine-2D</p>
+Por : Lucas Micol e [Rodrigo Amaral](https://github.com/rodrigopamaral1)
 
-Para executar o programa deve ser colocado na pasta de exemplos da oxygine-framework
+
+<p>Para executar o programa deve ser colocado na pasta de exemplos da oxygine-framework
 e compilar com o arquivo run.sh </p>
 # ~$ sh run.sh
 
